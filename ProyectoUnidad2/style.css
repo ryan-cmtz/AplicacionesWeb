@@ -9,13 +9,45 @@ header{
 }
 .hijo{
     width: 35%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 2px solid #ccc;
 }
 .hijo img{
     width: 100%;
 }
 .hijo h2{
     font-size: 2.5rem;
-    color: #fff;
+    color: #010101;
     text-align: center;
     margin-bottom: 1rem;
+}
+.hijo p{
+    line-height: 1.5;
+    font-size: 1.2rem;
+    color: #030303;
+    text-align: justify;
+}
+.hijo a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #0a0a0a;
+}
+.hijo a:hover{
+    color: #080808;
+
+}
+.hijo h2:first-child{
+    color: #050505;
+    font-size: 2rem;
+}
+.hijo h2:nth-child(2){
+    color: #000;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.hijo:hover{
+    transition: 1.5s;
+    border-color: #000;
 }
