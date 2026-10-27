@@ -1,0 +1,171 @@
+.encabezado-pagina {
+    padding: 65px 0;
+    background-color: #1b1520;
+    border-bottom: 1px solid #38263d;
+}
+
+.encabezado-pagina h1 {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(30px, 5vw, 46px);
+    margin-bottom: 15px;
+}
+
+.encabezado-pagina p:last-child {
+    color: #c7bdce;
+    line-height: 1.8;
+}
+
+.titulo-secundario {
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.texto-secundario {
+    color: #c7bdce;
+    line-height: 1.9;
+}
+
+.imagen-destacada {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #49334f;
+}
+
+.seccion-alterna {
+    background-color: #17121b;
+}
+
+.campo-oscuro {
+    background-color: #1c1721;
+    border: 1px solid #49334f;
+    color: #f1edf3;
+    padding: 12px;
+}
+
+.campo-oscuro:focus {
+    background-color: #211a28;
+    color: white;
+    border-color: #c18bd6;
+    box-shadow: 0 0 0 3px rgba(193, 139, 214, 0.15);
+}
+
+.campo-oscuro::placeholder {
+    color: #a99ead;
+}
+
+.campo-oscuro option {
+    background-color: #1c1721;
+    color: white;
+}
+
+.formulario-oscuro {
+    background-color: #17121b;
+    padding: 25px;
+    border: 1px solid #38263d;
+    border-radius: 8px;
+}
+
+.formulario-oscuro label {
+    color: #f1edf3;
+}
+
+.form-check-input {
+    background-color: #1c1721;
+    border-color: #8d559e;
+}
+
+.form-check-input:checked {
+    background-color: #8d559e;
+    border-color: #8d559e;
+}
+
+.informacion-contacto {
+    margin-top: 30px;
+    color: #d6a7e8;
+}
+
+.informacion-contacto i {
+    width: 28px;
+}
+
+.recomendacion {
+    height: 100%;
+    padding: 28px;
+    background-color: #1c1721;
+    border: 1px solid #38263d;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.recomendacion:hover {
+    border-color: #a86cbd;
+    transform: translateY(-4px);
+}
+
+.recomendacion > i {
+    color: #c18bd6;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.recomendacion h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.recomendacion p {
+    color: #c7bdce;
+    line-height: 1.8;
+}
+
+.mensaje-resultados {
+    color: #c7bdce;
+    margin-bottom: 25px;
+}
+
+.respuesta-formulario {
+    color: #d6a7e8;
+    line-height: 1.7;
+}
+
+.respuesta-formulario.exito {
+    padding: 14px;
+    background-color: #202a23;
+    border: 1px solid #54795e;
+    border-radius: 5px;
+    color: #c5edce;
+}
+
+.respuesta-formulario.error {
+    padding: 14px;
+    background-color: #301d24;
+    border: 1px solid #8c4c61;
+    border-radius: 5px;
+    color: #ffc8d5;
+}
+
+.tarjeta-catalogo.oculta {
+    display: none;
+}
+
+.pelicula img {
+    object-fit: cover;
+}
+
+@media (max-width: 576px) {
+    .encabezado-pagina {
+        padding: 45px 0;
+    }
+
+    .formulario-oscuro {
+        padding: 18px;
+    }
+
+    .titulo-secundario {
+        font-size: 24px;
+    }
+}
